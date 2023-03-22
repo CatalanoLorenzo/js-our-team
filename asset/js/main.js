@@ -2,12 +2,11 @@
 nome
 ruolo
 foto
-
-
-
 */
-//MILESTONE 0:
-//Creare l’array di oggetti con le informazioni fornite.
+
+
+            //MILESTONE 0:
+                 //Creare l’array di oggetti con le informazioni fornite.
 const teams = [
     {
         nome:"Wayne Barnett",
@@ -41,8 +40,8 @@ const teams = [
     },
 ]
 const rowEl = document.querySelector(".row")
-//MILESTONE 1:
-//Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+            //MILESTONE 1:
+                //Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 for (let i = 0; i < teams.length; i++) {
     const membre = teams[i];
     console.log(membre)
